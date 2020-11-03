@@ -1,0 +1,13 @@
+CREATE DATBASE crud;
+
+USE crud;
+
+CREATE TABLE usuarios(
+id		int AUTO_INCREMENT,
+nome		varchar(150),
+dataN		varchar(10),
+endereco	varchar(250),
+email		varchar(150),	
+telefone 	varchar(11),
+PRIMARY KEY (id)
+);
